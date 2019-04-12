@@ -10,6 +10,9 @@ class App < Sinatra::Base
     @name = params["name"] 
     @coach = params["coach"]
     @pg = params["pg"] 
+    @sf = params["sf"]
+    @sg = params["sg"]
+    
     
   end
 end
